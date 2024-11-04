@@ -2,20 +2,18 @@ import React from "react";
 import styled from "styled-components";
 
 const FormWrapper = styled.div`
-  width: 100%;
-  max-width: 500px;
-  margin-left: 50px;
   color: #fff;
+  text-align: center;
 `;
 
 const Title = styled.h1`
-  font-size: 36px;
+  font-size: 24px;
   color: #f39c12;
   margin-bottom: 10px;
 `;
 
 const SubTitle = styled.h2`
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.1);
   margin-bottom: 20px;
@@ -24,7 +22,7 @@ const SubTitle = styled.h2`
 const Input = styled.input`
   width: 100%;
   padding: 10px;
-  margin: 5px 0;
+  margin: 10px 0;
   border: none;
   border-radius: 5px;
 `;
@@ -32,7 +30,7 @@ const Input = styled.input`
 const TextArea = styled.textarea`
   width: 100%;
   padding: 10px;
-  margin: 5px 0;
+  margin: 10px 0;
   border: none;
   border-radius: 5px;
   resize: none;
@@ -41,7 +39,7 @@ const TextArea = styled.textarea`
 const SubmitButton = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: orange;
+  background-color: #f39c12;
   color: white;
   border: none;
   border-radius: 5px;

@@ -16,6 +16,7 @@ const SectionWrapper = styled.div`
   text-align: center;
   margin: 40px 0;
   color: #ffffff;
+  background-color: transparent; /* Ensure no conflicting background */
 `;
 
 const Heading = styled.h1`

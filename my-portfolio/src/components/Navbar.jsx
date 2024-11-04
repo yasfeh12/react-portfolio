@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { FaHome, FaFolder, FaBriefcase, FaTools, FaPen } from "react-icons/fa";
 
 const NavbarWrapper = styled.div`
@@ -16,7 +17,7 @@ const NavbarWrapper = styled.div`
   z-index: 10;
 `;
 
-const IconWrapper = styled.div`
+const IconWrapper = styled(Link)`
   position: relative;
   margin: 0 10px;
   color: #ffffff;
@@ -25,6 +26,7 @@ const IconWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
 
   &:hover .tooltip {
     opacity: 1;
@@ -56,23 +58,23 @@ const Tooltip = styled.div`
 const Navbar = () => {
   return (
     <NavbarWrapper>
-      <IconWrapper>
+      <IconWrapper to="/">
         <FaHome />
         <Tooltip className="tooltip">Home</Tooltip>
       </IconWrapper>
-      <IconWrapper>
+      <IconWrapper to="/projects">
         <FaFolder />
         <Tooltip className="tooltip">Projects</Tooltip>
       </IconWrapper>
-      <IconWrapper>
+      <IconWrapper to="/work">
         <FaBriefcase />
         <Tooltip className="tooltip">Work</Tooltip>
       </IconWrapper>
-      <IconWrapper>
+      <IconWrapper to="/skills">
         <FaTools />
         <Tooltip className="tooltip">Skills</Tooltip>
       </IconWrapper>
-      <IconWrapper>
+      <IconWrapper to="/thoughts">
         <FaPen />
         <Tooltip className="tooltip">Thoughts</Tooltip>
       </IconWrapper>
