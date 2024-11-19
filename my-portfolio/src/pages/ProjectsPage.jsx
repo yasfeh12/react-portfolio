@@ -87,7 +87,6 @@ const CardWrapper = styled(motion.div)`
   }
 `;
 
-// Sidebar-styled CardWrapper for ProfileCard
 const SidebarCard = styled(CardWrapper)`
   position: fixed;
   top: 0;

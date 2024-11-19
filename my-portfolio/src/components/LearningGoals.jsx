@@ -41,6 +41,7 @@ const LearningGoals = () => (
       Currently Learning
     </h2>
     <LearningContainer>
+      <Learning title="Python (Django)" />
       <Learning title="TypeScript" />
       <Learning title="Next.js" />
       <Learning title="GraphQL" />

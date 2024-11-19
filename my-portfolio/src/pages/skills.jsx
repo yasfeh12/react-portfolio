@@ -13,7 +13,7 @@ import {
 } from "react-icons/si";
 import SoftSkills from "../components/SoftSkills";
 import LearningGoals from "../components/LearningGoals";
-import Proficiency from "../components/SkillProficiency"; // Import the Proficiency component
+import Proficiency from "../components/SkillProficiency";
 
 const SectionWrapper = styled.div`
   text-align: center;

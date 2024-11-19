@@ -6,6 +6,8 @@ import weather from "./assets/weather.png";
 import quiz from "./assets/quiz.png";
 import pass from "./assets/pass.png";
 import readme from "./assets/readme.png";
+import tm from "./assets/tm.png";
+import gks from "./assets/gks.png";
 const projectsData = [
   {
     id: 1,
@@ -86,7 +88,7 @@ const projectsData = [
     id: 8,
     title: "GKS Tanning",
     description: "A business page for a tanning bed company.",
-    image: "/images/gkstanning.png",
+    image: gks,
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://github.com/yasfeh12/GKS-tanning",
     details:
@@ -107,7 +109,7 @@ const projectsData = [
     id: 10,
     title: "TM Electric",
     description: "A business website for a local electrician company.",
-    image: "/images/tmelectric.png",
+    image: tm,
     technologies: ["React", "Bootstrap", "CSS"],
     link: "https://github.com/yasfeh12/tm-electric",
     details:
